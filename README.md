@@ -11,15 +11,14 @@
     <tr>
       <td>
 
-      <img src="C:\Users\bruce\Desktop\Pictures\avamia.jpeg" alt="Ava and Mia" style="width:250px; height:300px;"/>
+      <h1>Hello</h1>
           </td>
           <td>
 
 
-      <h1 padding="10px;">Bruce Alder</h1><br/>
+      <h1 >Bruce Alder</h1><br>
             <h3>Database Marketer</h3>
-          <br/>
-
+        
           </td>
     </tr>
   </table>
