@@ -18,7 +18,7 @@
 
       <h1 padding="10px;">Bruce Alder</h1><br/>
             <h3>Database Marketer</h3>
-          </br/>
+          <br/>
 
           </td>
     </tr>
