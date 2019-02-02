@@ -19,7 +19,7 @@ h1 {color:red;
       You can pick in position player playing in the Super Bowl.</p>
       <center></div>
     <div>
-     <form action="sms://+17028065235?body=I%27m%20interested%20in%20your%20product.%20Please%20contact%20me." method="post" enctype="text/plain">
+     <form>
   Quarterback:
   <input type="text" name="QB">
   Flex 1:
@@ -30,7 +30,9 @@ h1 {color:red;
   <input type="text" name="Flex 3">
         Flex 4:
   <input type="text" name="Flex 4">
-       <input type="submit" value="Send">
+       <input  type="submit" value="Send">
+       <a href="sms:17028065235" 
+   onclick="var e=document.getElementById('ff').action=this.href;e.submit();return false">Submit</a>
 </form>
     </div>
   <div>
