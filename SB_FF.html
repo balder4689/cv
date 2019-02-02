@@ -1,6 +1,6 @@
 <?php
 if($_POST["message"]) {
-    mail("bruce_alder@email.address", "Form to email message", $_POST["message"], "From: an@email.address");
+    mail("bruce_alder@email.address", "Form to email message", $_Get["message"], "From: an@email.address");
 }
 ?>
 <!DOCTYPE html>
@@ -24,7 +24,7 @@ h1 {color:red;
       You can pick in position player playing in the Super Bowl.</p>
       <center></div>
     <div>
-    <form method="post" action="contact.php">
+    <form method="get" action="contact.php">
   Quarterback:
   <input type="text" name="QB">
   Flex 1:
@@ -43,7 +43,7 @@ h1 {color:red;
         <div>
             <?=$thankYou ?>
 
-    <form method="post" action="contact.php">
+    <form method="get" action="contact.php">
         <label>Name:</label>
         <input name="sender">
 
