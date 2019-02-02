@@ -1,3 +1,8 @@
+<?php
+if($_POST["message"]) {
+    mail("your@email.address", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -19,7 +24,7 @@ h1 {color:red;
       You can pick in position player playing in the Super Bowl.</p>
       <center></div>
     <div>
-     <form>
+    form method="post" action="contact.php"
   Quarterback:
   <input type="text" name="QB">
   Flex 1:
@@ -30,7 +35,7 @@ h1 {color:red;
   <input type="text" name="Flex 3">
         Flex 4:
   <input type="text" name="Flex 4">
-      <input type="submit" value="Send" href="sms:17028065235">
+      <input type="submit">
              
   
 </form>
